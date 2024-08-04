@@ -1,0 +1,59 @@
+.div-menu {
+    background: linear-gradient(
+        #251915,
+        #531,
+        #251915
+    );
+    padding: 35px 0;
+    
+}
+.div-menu > :first-child {
+    background-image: url(./img/background-menu.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    width: 90vw;
+    margin: auto;
+}
+
+
+.menu {
+    padding: 25px;
+    background-color: #f6dcabaa;
+}
+.menu:first-of-type {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.menu:last-of-type {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+h2 {
+    font-size: 45px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.menu h3 {
+    font-size: 35px;
+    padding: 10px;
+    text-align: center;
+}
+.menu h4 {
+    font-size: 30px;
+}
+.menu p {
+    font-size: 25px;
+    margin: 0 2px;
+}
+.menu article {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #251915;
+    
+}
+.menu h2, .menu h3, .menu h4, .menu p {
+    color: #251915;
+} 
